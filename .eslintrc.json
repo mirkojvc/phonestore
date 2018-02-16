@@ -1,0 +1,29 @@
+{
+    "env": {
+        "browser": true
+    },
+    "rules": {
+        "quotes": ["error", "double"],
+        "indent": ["error", 4],
+        "key-spacing": ["error", { "align": "value", "mode": "minimum" }],
+        "no-const-assign": "warn",
+        "no-this-before-super": "warn",
+        "no-undef": "warn",
+        "no-unreachable": "warn",
+        "no-unused-vars": "warn",
+        "constructor-super": "warn",
+        "valid-typeof": "warn",
+        "no-var": "off",
+        "no-multiple-empty-lines": ["error", { "max": 10 }],
+        "object-shorthand": 0,
+        "space-before-function-paren": "off",
+        "no-multi-spaces": "off",
+        "func-names": "off",
+        "comma-dangle": "off",
+        "semi-style": "off",
+        "camelcase": "off",
+        "strict": 0,
+        "vars-on-top":"off",
+        "prefer-template":"off"
+    }
+}
